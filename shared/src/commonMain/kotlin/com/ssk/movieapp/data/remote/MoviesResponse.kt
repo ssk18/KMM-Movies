@@ -1,4 +1,4 @@
-package com.ssk.movieapp.data
+package com.ssk.movieapp.data.remote
 
 @kotlinx.serialization.Serializable
 internal data class MoviesResponse(

@@ -1,4 +1,4 @@
-package com.ssk.movieapp.data
+package com.ssk.movieapp.data.remote
 
 import com.ssk.movieapp.modules.ApiKeyProvider
 import io.ktor.client.HttpClient
@@ -34,7 +34,7 @@ internal abstract class KtorApi {
     }
 
     companion object {
-        private const val BASE_URL = "https://api.themoviedb.org/"  // Move to companion object
-        private const val API_VERSION = "3"  // Extract API version
+        private const val BASE_URL = "https://api.themoviedb.org/"
+        private const val API_VERSION = "3"
     }
 }

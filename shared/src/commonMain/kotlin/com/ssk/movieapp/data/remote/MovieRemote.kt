@@ -1,4 +1,4 @@
-package com.ssk.movieapp.data
+package com.ssk.movieapp.data.remote
 
 import kotlinx.serialization.SerialName
 
