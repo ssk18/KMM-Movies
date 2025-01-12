@@ -17,14 +17,16 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun MyApplicationTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
+    darkTheme: Boolean = true,
     content: @Composable () -> Unit
 ) {
     val colors = if (darkTheme) {
         darkColorScheme(
-            primary = Color(0xFFBB86FC),
-            secondary = Color(0xFF03DAC5),
-            tertiary = Color(0xFF3700B3)
+            primary = Color(red = 34, green = 35, blue = 40),
+            secondary = Color(red = 220, green = 0, blue = 59),
+            tertiary = Color(red = 31, green = 31, blue = 36),
+            surface = Color(red = 28, green = 29, blue = 35),
+            background = Color(red = 22, green = 23, blue = 29)
         )
     } else {
         lightColorScheme(
